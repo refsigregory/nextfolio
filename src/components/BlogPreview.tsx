@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 type PostMeta = {
   slug: string;
@@ -46,12 +46,12 @@ export default function BlogPreview() {
             </h3>
             <p className="text-sm text-gray-500 mb-4">{post.date}</p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">{post.excerpt}</p>
-            <Link
+            {/*<Link
               href={`/blog/${post.slug}`}
               className="inline-block text-teal-600 hover:text-teal-400 font-medium transition"
             >
               Read More →
-            </Link>
+            </Link>*/}
           </div>
         ))}
       </div>
