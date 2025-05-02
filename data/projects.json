@@ -1,0 +1,101 @@
+[
+    {
+        "id": "aplikasisistempenggajian",
+        "title": "Payroll App",
+        "year": 2019,
+        "images": [
+            "/images/portfolios/aplikasiuntuksistempenggajian/thumbnail.png",
+            "/images/portfolios/aplikasiuntuksistempenggajian/preview.png"
+        ],
+        "description": "A full-stack portfolio site built with Next.js and Tailwind CSS.",
+        "category": ["fullstack"],
+        "platform": ["web"],
+        "tags": [
+            "Codeigniter",
+            "PHP"
+        ]
+    },
+    {
+        "id": "radarpapuaonline",
+        "title": "RadarPapuaOnline.con",
+        "year": 2020,
+        "images": [
+            "/images/portfolios/radarpapuaonline.com/thumbnail.png",
+            "/images/portfolios/radarpapuaonline.com/preview.png"
+        ],
+        "description": "A project created by me.",
+        "category": ["frontend"],
+        "platform": ["web"],
+        "tags": [
+            "Wordpress",
+            "PHP"
+        ]
+    },
+    {
+        "id": "celebestoday.id",
+        "title": "Celebestoday.ID",
+        "year": 2021,
+        "images": [
+            "/images/portfolios/celebestoday.id/thumbnail.png",
+            "/images/portfolios/celebestoday.id/preview.png"
+        ],
+        "description": "A project created by me.",
+        "category": ["frontend"],
+        "platform": ["web"],
+        "tags": [
+            "Wordpress",
+            "PHP"
+        ]
+    },
+    {
+        "id": "gotauskusuma",
+        "title": "GotausKusuma.com",
+        "year": 2021,
+        "images": ["/images/portfolios/gotauskusuma/thumbnail.png"],
+        "description": "A dynamic e-commerce admin panel with charts and real-time stats.",
+        "category": ["backend", "frontend", "fullstack"],
+        "platform": ["web"],
+        "tags": [
+            "React JS",
+            "Node JS"
+        ]
+    },
+    {
+        "id": "nadi-app",
+        "year": 2021,
+        "title": "NADI APP",
+        "images": [
+            "/images/portfolios/nadi-app/thumbnail.png",
+            "/images/portfolios/nadi-app/preview.png"
+        ],
+        "category": ["backend"],
+        "platform": ["web", "mobile"],
+        "description": "A dynamic e-commerce admin panel with charts and real-time stats.",
+        "tags": [
+            "Node JS",
+            "MongoDB",
+            "RESTfull"
+        ]
+    },
+    {
+        "id": "epegawai",
+        "title": "ePegawai Mobile",
+        "year": 2021,
+        "images": [
+            "/images/portfolios/epegawai-mobile/thumbnail.png",
+            "/images/portfolios/epegawai-mobile/preview.png",
+            "/images/portfolios/epegawai-mobile/preview2.png",
+            "/images/portfolios/epegawai-mobile/preview3.png",
+            "/images/portfolios/epegawai-mobile/preview4.png"
+        ],
+        "description": "A dynamic e-commerce admin panel with charts and real-time stats.",
+        "category": ["frontend", "backend"],
+        "platform": ["web", "mobile"],
+        "tags": [
+            "Ionic",
+            "React JS",
+            "PHP",
+            "Codeigniter"
+        ]
+    }
+]
