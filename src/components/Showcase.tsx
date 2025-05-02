@@ -15,7 +15,7 @@ type Project = {
   description: string;
   tags: string[];
   category: string[];
-  platform: string;
+  platform: string[];
 };
 
 export default function Showcase() {
