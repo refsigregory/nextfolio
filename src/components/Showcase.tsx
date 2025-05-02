@@ -16,6 +16,7 @@ type Project = {
   tags: string[];
   category: string[];
   platform: string[];
+  privacy: string;
 };
 
 export default function Showcase() {
@@ -39,7 +40,7 @@ export default function Showcase() {
       try {
         const res = await fetch('/api/projects');
         const data = await res.json();
-        setProjects(data);
+        setProjects([...data].reverse()); // get DESCENDING data
       } catch (error) {
         console.error('[Showcase] Failed to load projects:', error);
       } finally {
@@ -106,6 +107,17 @@ export default function Showcase() {
 
   const resetFilters = () => {
     router.push('?#projects');
+  }; 
+  
+  const ProjectImageURL = (project: Project, activeImage: number = 0) => {
+    if (project.images?.length > 0) {
+      if (project.privacy === "restricted") {
+        return "/images/restricted-project.png";
+      } else {
+      return project.images[activeImage]
+      }
+    }
+    return "/images/no-preview.png";
   };
 
   return (
@@ -145,7 +157,7 @@ export default function Showcase() {
         >
           <option value="">All Categories</option>
           {categoryOptions.map((category) => (
-            <option key={category} value={category}>{category}</option>
+            <option key={category} value={category}>{category.toUpperCase()}</option>
           ))}
         </select>
 
@@ -179,7 +191,7 @@ export default function Showcase() {
               >
                 <div className="aspect-[4/3] relative w-full">
                   <Image
-                    src={project.images[0]}
+                    src={ProjectImageURL(project)}
                     alt={project.title}
                     fill
                     className="object-cover rounded-t-xl"
@@ -225,7 +237,7 @@ export default function Showcase() {
 
               <div className="relative w-full mb-4">
                 <Image
-                  src={selected.images[activeImage]}
+                  src={ProjectImageURL(selected, activeImage)}
                   alt={`Slide ${activeImage + 1}`}
                   width={600}
                   height={400}

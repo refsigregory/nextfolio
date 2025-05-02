@@ -34,7 +34,7 @@ export default function BlogPreview() {
 
   return (
     <section className="py-12 px-4 max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">📝 Blog Posts</h2>
+      <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">📝 Blog Posts (Coming soon)</h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {posts.map((post) => (
           <div

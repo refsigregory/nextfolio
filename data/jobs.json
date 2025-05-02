@@ -1,8 +1,7 @@
 [
-    { "id": 1, "name": "TechNova" },
-    { "id": 2, "name": "PixelForge" },
-    { "id": 3, "name": "CodeSmiths" },
-    { "id": 4, "name": "BitStack" },
-    { "id": 5, "name": "NetGrid" },
-    { "id": 6, "name": "CyberNest" }
+    { "id": 1, "title": "SUPERPROF",  "name": "Superprof.co.id", "year": 2020, "location": "Indonesia" },
+    { "id": 2, "title": "BKD SULUT", "name": "Badan Kepegawain Daerah Provinsi Sulawesi Utara", "year": 2021, "location": "Manado" },
+    { "id": 3, "title": "NADI",  "name": "Nadi Healtech", "year": 2021, "location": "Malaysia" },
+    { "id": 4, "title": "PLATON",  "name": "Platon.co.id (PT SINERGI RAJAWALI MATARAM)", "year": 2022, "location": "Jogjakarta/Jakarta" },
+    { "id": 5, "title": "BIT GROUP",  "name": "Platon.co.id (PT MULTI BIT GROUP ASIA)", "year": 2024, "location": "Jakarta" }
 ]

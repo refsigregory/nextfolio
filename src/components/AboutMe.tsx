@@ -20,8 +20,7 @@ export default function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.6 }}
       >
-        I&apos;m a passionate full-stack developer with a focus on clean code,
-        great UI/UX, and building things that make a difference.
+        I&apos;m a passionate software engineer with a focus to building things and make something.
       </motion.p>
 
       <motion.div

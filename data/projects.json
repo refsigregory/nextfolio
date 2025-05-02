@@ -1,101 +1,424 @@
 [
     {
-        "id": "aplikasisistempenggajian",
-        "title": "Payroll App",
-        "year": 2019,
-        "images": [
-            "/images/portfolios/aplikasiuntuksistempenggajian/thumbnail.png",
-            "/images/portfolios/aplikasiuntuksistempenggajian/preview.png"
-        ],
-        "description": "A full-stack portfolio site built with Next.js and Tailwind CSS.",
-        "category": ["fullstack"],
-        "platform": ["web"],
-        "tags": [
-            "Codeigniter",
-            "PHP"
-        ]
+      "id": "yamaruindo-org",
+      "title": "Apps Accounting YAMARUINDO",
+      "year": 2016,
+      "images": [
+        "/images/portfolios/yamaruindo.org/thumbnail.png",
+        "/images/portfolios/yamaruindo.org/preview.png"
+      ],
+      "description": "Create applications focuses on accounting for this company, where in this application calculates DEBET and CREDIT from company accounts and print several reports such as a balance sheet, etc.",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": ["PHP"],
+      "url": "www.yamaruindo.org",
+      "repo": "#",
+      "privacy": "public"
     },
     {
-        "id": "radarpapuaonline",
-        "title": "RadarPapuaOnline.con",
-        "year": 2020,
-        "images": [
-            "/images/portfolios/radarpapuaonline.com/thumbnail.png",
-            "/images/portfolios/radarpapuaonline.com/preview.png"
-        ],
-        "description": "A project created by me.",
-        "category": ["frontend"],
-        "platform": ["web"],
-        "tags": [
-            "Wordpress",
-            "PHP"
-        ]
+      "id": "frenlog-com",
+      "title": "Self Project Frenlog",
+      "year": 2015,
+      "images": [
+        "/images/portfolios/frenlog/thumbnail.png",
+        "/images/portfolios/frenlog/preview.png"
+      ],
+      "description": "This is a self-developed Social Network, has changed cores several times.",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": [
+        "PHP",
+        "CodeIgniter",
+        "Ionic",
+        "React JS",
+        "React Native"
+      ],
+      "url": "www.frenlog.com",
+      "repo": "#",
+      "privacy": "public"
     },
     {
-        "id": "celebestoday.id",
-        "title": "Celebestoday.ID",
-        "year": 2021,
-        "images": [
-            "/images/portfolios/celebestoday.id/thumbnail.png",
-            "/images/portfolios/celebestoday.id/preview.png"
-        ],
-        "description": "A project created by me.",
-        "category": ["frontend"],
-        "platform": ["web"],
-        "tags": [
-            "Wordpress",
-            "PHP"
-        ]
+      "id": "logbooklab",
+      "title": "Logbook Laboratorium",
+      "year": 2016,
+      "images": [],
+      "description": "Is an application that is intended to simplify the process of recording visitors on campus lab. This application is inspired by billing apps at an Internet cafe.",
+      "category": ["desktop"],
+      "platform": ["desktop"],
+      "tags": ["VB.NET"],
+      "url": "",
+      "repo": "#",
+      "privacy": "private"
     },
     {
-        "id": "gotauskusuma",
-        "title": "GotausKusuma.com",
-        "year": 2021,
-        "images": ["/images/portfolios/gotauskusuma/thumbnail.png"],
-        "description": "A dynamic e-commerce admin panel with charts and real-time stats.",
-        "category": ["backend", "frontend", "fullstack"],
-        "platform": ["web"],
-        "tags": [
-            "React JS",
-            "Node JS"
-        ]
+      "id": "travenitapsd",
+      "title": "Design PSD to HTML: Travenita (Tugas)",
+      "year": 2017,
+      "images": [
+        "/images/portfolios/travenita-design-psd-to-html/thumbnail.png",
+        "/images/portfolios/travenita-design-psd-to-html/preview.png"
+      ],
+      "description": "It is the a web design from PSD to HTML",
+      "category": ["frontend"],
+      "platform": ["web"],
+      "tags": ["HTML", "CSS"],
+      "url": "",
+      "repo": "#",
+      "privacy": "public"
     },
     {
-        "id": "nadi-app",
-        "year": 2021,
-        "title": "NADI APP",
-        "images": [
-            "/images/portfolios/nadi-app/thumbnail.png",
-            "/images/portfolios/nadi-app/preview.png"
-        ],
-        "category": ["backend"],
-        "platform": ["web", "mobile"],
-        "description": "A dynamic e-commerce admin panel with charts and real-time stats.",
-        "tags": [
-            "Node JS",
-            "MongoDB",
-            "RESTfull"
-        ]
+      "id": "listbirthday",
+      "title": "Simple Birthday On This Week",
+      "year": 2017,
+      "images": [
+        "/images/portfolios/birthday/thumbnail.png",
+        "/images/portfolios/birthday/preview.png"
+      ],
+      "description": "Simple application to show who has bithday in weeks.",
+      "category": ["frontend"],
+      "platform": ["web"],
+      "tags": ["PHP", "JQuery"],
+      "url": "",
+      "repo": "https://github.com/refsigregory/birthday",
+      "privacy": "public"
     },
     {
-        "id": "epegawai",
-        "title": "ePegawai Mobile",
-        "year": 2021,
-        "images": [
-            "/images/portfolios/epegawai-mobile/thumbnail.png",
-            "/images/portfolios/epegawai-mobile/preview.png",
-            "/images/portfolios/epegawai-mobile/preview2.png",
-            "/images/portfolios/epegawai-mobile/preview3.png",
-            "/images/portfolios/epegawai-mobile/preview4.png"
-        ],
-        "description": "A dynamic e-commerce admin panel with charts and real-time stats.",
-        "category": ["frontend", "backend"],
-        "platform": ["web", "mobile"],
-        "tags": [
-            "Ionic",
-            "React JS",
-            "PHP",
-            "Codeigniter"
-        ]
+      "id": "pendataanpohonandroid",
+      "title": "Tree Data Collector with GoogleMaps + QRScanner",
+      "year": 2018,
+      "images": [],
+      "description": "Apps with feature to find tree and give direction, then can show information after scanning QRCode from Trees.",
+      "category": ["mobile"],
+      "platform": ["mobile"],
+      "tags": ["Ionic", "Android"],
+      "url": "",
+      "repo": "#",
+      "privacy": "private"
+    },
+    {
+      "id": "robotgripperdanclawcapit",
+      "title": "Program for Robot Gripper Claw Capit",
+      "year": 2018,
+      "images": [],
+      "description": "Program for Prototype Robot Gripper Claw Capit",
+      "category": ["iot"],
+      "platform": ["embedded"],
+      "tags": ["Arduino"],
+      "url": "",
+      "repo": "#",
+      "privacy": "private"
+    },
+    {
+      "id": "robotwallavoider",
+      "title": "Program for Robot Wall Avoider",
+      "year": 2018,
+      "images": [],
+      "description": "Program for Prototype Robot Wall Avoider for learning.",
+      "category": ["iot"],
+      "platform": ["embedded"],
+      "tags": ["Arduino"],
+      "url": "",
+      "repo": "#",
+      "privacy": "private"
+    },
+    {
+      "id": "robotlinefollower",
+      "title": "Program for Robot Line Follower",
+      "year": 2018,
+      "images": [],
+      "description": "Program for Robot Line Follower",
+      "category": ["iot"],
+      "platform": ["embedded"],
+      "tags": ["Arduino"],
+      "url": "",
+      "repo": "#",
+      "privacy": "private"
+    },
+    {
+      "id": "dispenserairotomatis",
+      "title": "Program for Automatic Drinking Water Dispenser",
+      "year": 2018,
+      "images": [
+        "/images/portfolios/smartdispenser/thumbnail.png",
+        "/images/portfolios/smartdispenser/preview.png"
+      ],
+      "description": "Join in research for Automatic Drinking Water Dispenser using Arduino dan Web Service",
+      "category": ["iot"],
+      "platform": ["embedded"],
+      "tags": ["Arduino", "PHP", "CodeIgniter", "MySQL"],
+      "url": "",
+      "repo": "#",
+      "privacy": "public"
+    },
+    {
+      "id": "radarpapuaonline-com",
+      "title": "Website Online Radar Papua",
+      "year": 2018,
+      "images": [
+        "/images/portfolios/radarpapuaonline.com/thumbnail.png",
+        "/images/portfolios/radarpapuaonline.com/preview.png"
+      ],
+      "description": "Website for Online Newspapper Radar Papua",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": ["Wordpress"],
+      "url": "radarpapuaonline.com",
+      "repo": "#",
+      "privacy": "public"
+    },
+    {
+      "id": "downloadlagu321-net",
+      "title": "Website song list with API Youtube & Database MySQL",
+      "year": 2019,
+      "images": [
+        "/images/portfolios/downloadlagu321.net/thumbnail.png",
+        "/images/portfolios/downloadlagu321.net/preview.png"
+      ],
+      "description": "Building Website to showing song list with API Youtube and Database MySQL",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": ["PHP", "Laravel"],
+      "url": "downloadlagu321.net",
+      "repo": "#",
+      "privacy": "restricted"
+    },
+    {
+      "id": "bukutamudenganwebcam",
+      "title": "Guest Book with Appointment and Webcam",
+      "year": null,
+      "images": [],
+      "description": "Guest Book with Apointment and can send face information use WebCam",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": ["PHP", "CodeIgniter"],
+      "url": "",
+      "repo": "#",
+      "privacy": "restricted"
+    },
+    {
+      "id": "steganographydenganmatlab",
+      "title": "Steganography MATLAB",
+      "year": null,
+      "images": [],
+      "description": "Steganography for hide message inside image file use MATLAB",
+      "category": ["ml"],
+      "platform": ["desktop"],
+      "tags": ["MATLAB"],
+      "url": "",
+      "repo": "#",
+      "privacy": "restricted"
+    },
+    {
+      "id": "penerapanocrmatlab",
+      "title": "OCR (Optical Character Reconition) MATLAB",
+      "year": null,
+      "images": [],
+      "description": "Using OCR (Optical Character Reconition) to read KWh from Electric Meter Postpaid",
+      "category": ["ml"],
+      "platform": ["desktop"],
+      "tags": ["MATLAB"],
+      "url": "",
+      "repo": "#",
+      "privacy": "restricted"
+    },
+    {
+      "id": "pengukurandiameterkelapamatlab",
+      "title": "Count Diameter of Coconut using Image Processing MATLAB",
+      "year": null,
+      "images": [],
+      "description": "Count Diameter of Coconut using Image Processing MATLAB",
+      "category": ["ml"],
+      "platform": ["desktop"],
+      "tags": ["MATLAB"],
+      "url": "",
+      "repo": "#",
+      "privacy": "restricted"
+    },
+    {
+      "id": "qcellpulsa-com",
+      "title": "Apps for Selling Cellphone Credit",
+      "year": null,
+      "images": [
+        "/images/portfolios/qcellpulsa.com/thumbnail.png",
+        "/images/portfolios/qcellpulsa.com/preview.png"
+      ],
+      "description": "Selling Cellphone credit use Web Service and Paypal Api for automatic payment dan Bank Transfer (Manual)",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": ["PHP"],
+      "url": "qcellpulsa.com",
+      "repo": "#",
+      "privacy": "public"
+    },
+    {
+      "id": "aplikasipencariangkot",
+      "title": "Prototype for searching Angkot (Public Transport) using Google Map and Djikstra",
+      "year": null,
+      "images": [
+        "/images/portfolios/aplikasipencariangkot/thumbnail.png",
+        "/images/portfolios/aplikasipencariangkot/preview.png"
+      ],
+      "description": "This application is buld to make it easier for users traveling by Angkot and make it easier to pick the angkot routes.",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": ["React Native", "RESTfull API", "PHP", "CodeIgniter"],
+      "url": "domikro.ref.si",
+      "repo": "#",
+      "privacy": "public"
+    },
+    {
+      "id": "aplikasiuntunksistempenggajian",
+      "title": "Payroll System",
+      "year": null,
+      "images": [
+        "/images/portfolios/aplikasiuntuksistempenggajian/thumbnail.png",
+        "/images/portfolios/aplikasiuntuksistempenggajian/preview.png"
+      ],
+      "description": "This application is build for payroll at De La Salle Catholic University, which previously only used spreadsheet software and has many problems.",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": ["PHP", "CodeIgniter"],
+      "url": "projects.ref.si/penggajian",
+      "repo": "#",
+      "privacy": "public"
+    },
+    {
+      "id": "pendataananggota",
+      "title": "Simpe Apps for Member Registration",
+      "year": null,
+      "images": [],
+      "description": "Apps for Registration system in Organization",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": ["PHP", "CodeIgniter"],
+      "url": "",
+      "repo": "#",
+      "privacy": "restricted"
+    },
+    {
+      "id": "pendataandatacalon",
+      "title": "Simple Apps to Collect Participants Data",
+      "year": 2019,
+      "images": [],
+      "description": "Simple Apps to Collect Participants Data",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": ["PHP", "CodeIgniter"],
+      "url": "",
+      "repo": "#",
+      "privacy": "restricted"
+    },
+    {
+      "id": "celebestoday-id",
+      "title": "Website Media Online CelebesTodayID",
+      "year": 2019,
+      "images": [
+        "/images/portfolios/celebestoday.id/thumbnail.png",
+        "/images/portfolios/celebestoday.id/preview.png"
+      ],
+      "description": "Website for Online New CelebesToday.ID",
+      "category": ["backend"],
+      "platform": ["web"],
+      "tags": ["Wordpress"],
+      "url": "celebestoday.id",
+      "repo": "#",
+      "privacy": "public"
+    },
+    {
+      "id": "pendeteksitypo",
+      "title": "Typo Detector with Q-Learning Methods",
+      "year": 2020,
+      "images": [
+        "/images/portfolios/pendeteksitypo/thumbnail.png",
+        "/images/portfolios/pendeteksitypo/preview.png"
+      ],
+      "description": "Thesis for Bachelor, create a Typo Detector with Reinforcement Learning.",
+      "category": ["ml"],
+      "platform": ["desktop"],
+      "tags": ["Python"],
+      "url": "pendeteksi-type.ref.si",
+      "repo": "https://github.com/refsigregory/pendeteksti-typo",
+      "privacy": "public"
+    },
+    {
+      "id": "konterku",
+      "title": "Sales Record Application for Cellphone Credit Counter",
+      "year": 2020,
+      "images": [
+        "/images/portfolios/konterku/thumbnail.png",
+        "/images/portfolios/konterku/preview.png"
+      ],
+      "description": "Application for sales record for cellphone credit counter.",
+      "category": ["mobile"],
+      "platform": ["mobile"],
+      "tags": ["Android Studio", "Java"],
+      "url": "",
+      "repo": "",
+      "privacy": "public"
+    },
+    {
+      "id": "gotauskusuma",
+      "title": "Gerakan Orang Tua Asuh Untuk Seminari (GOTAUS) Keusukupan Manado",
+      "year": 2021,
+      "images": [
+        "/images/portfolios/gotauskusuma/thumbnail.png",
+        "/images/portfolios/gotauskusuma/preview.png"
+      ],
+      "description": "Application for fund raising in Manado Diocese",
+      "category": ["web"],
+      "platform": ["web"],
+      "tags": ["React JS", "Node JS", "MySQL"],
+      "url": "https://gotauskusuma.vercel.app",
+      "repo": "",
+      "privacy": "public"
+    },
+    {
+      "id": "epegawai-mobile",
+      "title": "ePegawai Mobile",
+      "year": 2021,
+      "images": [
+        "/images/portfolios/epegawai-mobile/thumbnail.png",
+        "/images/portfolios/epegawai-mobile/preview.png",
+        "/images/portfolios/epegawai-mobile/preview2.png",
+        "/images/portfolios/epegawai-mobile/preview3.png",
+        "/images/portfolios/epegawai-mobile/preview4.png"
+      ],
+      "description": "Employee Attendance Applications with Face Recognition (Mobile Apps) for Regional Civil Servants.",
+      "category": ["mobile"],
+      "platform": ["mobile"],
+      "tags": ["Ionic", "React JS", "Android", "iOS"],
+      "url": "https://play.google.com/store/apps/details?id=com.epegawai.mobile",
+      "repo": "",
+      "privacy": "public"
+    },
+    {
+      "id": "pakanikanotomatis",
+      "title": "Pakan Ikan Otomatis",
+      "year": 2022,
+      "images": [
+        "/images/portfolios/pakanikanotomatis/thumbnail.png",
+        "/images/portfolios/pakanikanotomatis/preview.png"
+      ],
+      "description": "Fish Feeding application",
+      "category": ["iot"],
+      "platform": ["embedded"],
+      "tags": ["Kodular", "Node JS", "MongoDB"],
+      "url": "",
+      "repo": "",
+      "privacy": "public"
+    },
+    {
+        "id": "qrscannergraduation",
+        "title": "Guestbook QR Scanner for Graduation",
+        "year": 2024,
+        "images": [],
+        "description": "Simple Guestbook to used in University Graduation",
+        "category": ["iot"],
+        "platform": ["embedded"],
+        "tags": ["Next JS", "Node JS", "React Native"],
+        "url": "",
+        "repo": "",
+        "privacy": "public"
     }
-]
+  ]
+  
