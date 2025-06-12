@@ -480,7 +480,8 @@
         "title": "BKM KLIPS",
         "year": 2022,
         "images": [
-          "/images/portfolios/platon-bkm/playstore.png"
+          "/images/portfolios/platon-bkm/playstore.png",
+          "/images/portfolios/platon-bkm/develop-imbal-jasa-preview.png"
         ],
         "description": "A comprehensive logistics management solution integrating web and mobile platforms for efficient driver management and real-time tracking capabilities.",
         "category": ["backend", "fullstack"],
@@ -546,7 +547,10 @@
         "id": "qrscannergraduation",
         "title": "Guest Book with QR Scanner for Graduation Ceremony",
         "year": 2024,
-        "images": [],
+        "images": [
+          "/images/portfolios/qr-scanner-graduation/example-dummy-qr-result.png",
+          "/images/portfolios/qr-scanner-graduation/example-dummy-qr-list.png"
+        ],
         "description": "An innovative digital guest book system incorporating QR code technology for streamlined guest registration at university graduation ceremonies.",
         "category": ["fullstack", "backend"],
         "platform": ["mobile", "web"],
