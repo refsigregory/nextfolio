@@ -429,8 +429,8 @@
         "/images/portfolios/pakanikanotomatis/preview.png"
       ],
       "description": "An intelligent automated fish feeding system combining IoT technology with cloud-based monitoring and control capabilities.",
-      "category": ["iot"],
-      "platform": ["embedded"],
+      "category": ["iot", "fullstack"],
+      "platform": ["embedded", "mobile"],
       "tags": ["Kodular", "Node JS", "MongoDB"],
       "url": "",
       "repo": "",
@@ -479,14 +479,16 @@
         "id": "platonbkm",
         "title": "BKM KLIPS",
         "year": 2022,
-        "images": [],
+        "images": [
+          "/images/portfolios/platon-bkm/playstore.png"
+        ],
         "description": "A comprehensive logistics management solution integrating web and mobile platforms for efficient driver management and real-time tracking capabilities.",
         "category": ["backend", "fullstack"],
         "platform": ["web", "mobile"],
         "tags": ["Next JS", "Prisma ORM", "React Native", "Expo"],
         "url": "",
         "repo": "",
-        "privacy": "restricted"
+        "privacy": "public"
     },
     {
         "id": "ytanusantara",
@@ -523,9 +525,9 @@
         "category": ["frontend"],
         "platform": ["mobile"],
         "tags": ["React Native", "Expo", "Android Studio", "iOS"],
-        "url": "indonesiadigital.co.id",
+        "url": "",
         "repo": "",
-        "privacy": "restricted"
+        "privacy": "public"
     },
     {
         "id": "platonapp",
@@ -536,7 +538,7 @@
         "category": ["frontend", "fullstack"],
         "platform": ["web", "mobile"],
         "tags": ["Next JS", "Prisma ORM", "React Native", "Expo"],
-        "url": "indonesiadigital.co.id",
+        "url": "platon.co.id",
         "repo": "",
         "privacy": "restricted"
     },
@@ -546,8 +548,8 @@
         "year": 2024,
         "images": [],
         "description": "An innovative digital guest book system incorporating QR code technology for streamlined guest registration at university graduation ceremonies.",
-        "category": ["iot"],
-        "platform": ["embedded"],
+        "category": ["fullstack", "backend"],
+        "platform": ["mobile", "web"],
         "tags": ["Next JS", "Node JS", "React Native"],
         "url": "",
         "repo": "",
@@ -583,7 +585,10 @@
         "id": "bitgroupsso",
         "title": "SSO Imigrasi",
         "year": 2024,
-        "images": [],
+        "images": [
+          "/images/portfolios/bit-sso-imigrasi/preview1.png",
+          "/images/portfolios/bit-sso-imigrasi/preview2.png"
+        ],
         "description": "Developed a robust Single Sign-On (SSO) solution for the Immigration Ministry.",
         "category": ["frontend"],
         "platform": ["web"],
@@ -596,7 +601,10 @@
         "id": "bitgroupapoa",
         "title": "APOA Imigrasi",
         "year": 2025,
-        "images": [],
+        "images": [
+          "/images/portfolios/bit-apoa-imigrasi/preview1.png",
+          "/images/portfolios/bit-apoa-imigrasi/preview2.png"
+        ],
         "description": "Enhanced the Foreigners Reporting Application (APOA) for Immigration services through feature development and system optimization, improving overall functionality and user experience.",
         "category": ["frontend"],
         "platform": ["web"],
