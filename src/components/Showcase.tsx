@@ -21,7 +21,6 @@ type Project = {
 
 export default function Showcase() {
   const [projects, setProjects] = useState<Project[]>([]);
-  const [filtered, setFiltered] = useState<Project[]>([]);
   const [selected, setSelected] = useState<Project | null>(null);
   const [activeImage, setActiveImage] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -29,9 +28,10 @@ export default function Showcase() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const [selectedTag, setSelectedTag] = useState<string | null>(null);
-  const [selectedPlatform, setSelectedPlatform] = useState<string | null>(null);
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  // --- Filters (derived from URL) ---
+  const selectedTag = searchParams.get('tag');
+  const selectedPlatform = searchParams.get('platform');
+  const selectedCategory = searchParams.get('category');
 
   // --- Data Fetching ---
   useEffect(() => {
@@ -50,13 +50,6 @@ export default function Showcase() {
 
     fetchProjects();
   }, []);
-
-  // --- URL Sync ---
-  useEffect(() => {
-    setSelectedTag(searchParams.get('tag'));
-    setSelectedPlatform(searchParams.get('platform'));
-    setSelectedCategory(searchParams.get('category'));
-  }, [searchParams]);
 
   // --- Filter Options ---
   const tagOptions = useMemo(() => {
@@ -85,7 +78,7 @@ export default function Showcase() {
   }, [projects]);
 
   // --- Filtering ---
-  useEffect(() => {
+  const filtered = useMemo(() => {
     let result = projects;
 
     if (selectedTag) result = result.filter((p) => p.tags.includes(selectedTag));
@@ -94,7 +87,7 @@ export default function Showcase() {
     }
     if (selectedCategory) result = result.filter((p) => p.category.includes(selectedCategory));
 
-    setFiltered(result);
+    return result;
   }, [projects, selectedTag, selectedPlatform, selectedCategory]);
 
   // --- Update URL when filters change ---
