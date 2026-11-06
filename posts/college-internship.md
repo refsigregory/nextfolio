@@ -1,5 +1,5 @@
 ---
-title: "Payroll Problem in College Finance Departement"
+title: "Payroll Problem in College Finance Department"
 date: 2019
 ---
 

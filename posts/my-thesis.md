@@ -1,5 +1,5 @@
 ---
-title: "The Final Undergaduate Project"
+title: "The Final Undergraduate Project"
 date: 2020
 ---
 

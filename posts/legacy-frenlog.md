@@ -1,5 +1,5 @@
 ---
-title: "The Born of Frenlog"
+title: "The Birth of Frenlog"
 date: 2017
 ---
 

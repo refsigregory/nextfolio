@@ -1,44 +1,38 @@
-import path from 'path';
-import fs from 'fs/promises';
-
-type Project = {
-  id: number;
-  name: string;
-  tags: string[];
-  year: number;
-};
+import { getAllProjects } from './projects';
 
 export type ExperienceStats = {
+  /** Number of distinct years with at least one project. */
   totalYears: number;
+  /** Year of the earliest project. */
+  since: number | null;
+  /** Tag -> number of distinct years it was used, sorted by most years first. */
   byTag: Record<string, number>;
 };
 
 export async function getExperienceStats(): Promise<ExperienceStats> {
-  const filePath = path.join(process.cwd(), 'data/projects.json');
-  const raw = await fs.readFile(filePath, 'utf-8');
-  const projects: Project[] = JSON.parse(raw);
-
-  // const currentYear = new Date().getFullYear();
+  const projects = await getAllProjects();
   const tagYears: Record<string, Set<number>> = {};
+  const allYears = new Set<number>();
 
   for (const project of projects) {
-    const yearsUsed = tagYears;
-    for (const tag of project.tags || []) {
-      if (!yearsUsed[tag]) {
-        yearsUsed[tag] = new Set();
-      }
-      yearsUsed[tag].add(project.year);
+    // Projects without a year can't count towards years of experience.
+    if (project.year == null) continue;
+
+    allYears.add(project.year);
+    for (const tag of project.tags ?? []) {
+      (tagYears[tag] ??= new Set()).add(project.year);
     }
   }
 
-  const byTag: Record<string, number> = {};
-  for (const tag in tagYears) {
-    const years = tagYears[tag];
-    byTag[tag] = years.size;
-  }
+  const byTag = Object.fromEntries(
+    Object.entries(tagYears)
+      .map(([tag, years]) => [tag, years.size] as const)
+      .sort(([tagA, a], [tagB, b]) => b - a || tagA.localeCompare(tagB)),
+  );
 
-  const allYears = new Set(projects.map(p => p.year));
-  const totalYears = allYears.size;
-
-  return { totalYears, byTag };
+  return {
+    totalYears: allYears.size,
+    since: allYears.size ? Math.min(...allYears) : null,
+    byTag,
+  };
 }

@@ -1,17 +1,23 @@
-// src/lib/projects.ts
 import path from 'path';
 import fs from 'fs/promises';
+import type { Project } from './types';
 
-type Project = {
-  id: number;
-  name: string;
-  tags: string[];
-};
-
+/**
+ * All projects, newest first. Projects without a year go last.
+ * Screenshots of restricted projects are removed here, so their paths never reach
+ * the page source or the API.
+ */
 export async function getAllProjects(): Promise<Project[]> {
   const filePath = path.join(process.cwd(), 'data/projects.json');
-  const data = await fs.readFile(filePath, 'utf-8');
-  return JSON.parse(data);
+  const projects: Project[] = JSON.parse(await fs.readFile(filePath, 'utf-8'));
+
+  return (
+    projects
+      .map((project) => (project.privacy === 'restricted' ? { ...project, images: [] } : project))
+      // Reverse first so projects from the same year keep "last added first" order.
+      .reverse()
+      .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
+  );
 }
 
 export async function getAllTags(): Promise<string[]> {
@@ -19,8 +25,8 @@ export async function getAllTags(): Promise<string[]> {
   const tagSet = new Set<string>();
 
   for (const project of projects) {
-    project.tags?.forEach(tag => tagSet.add(tag));
+    project.tags?.forEach((tag) => tagSet.add(tag));
   }
 
-  return Array.from(tagSet).sort(); // Optional: sorted alphabetically
+  return Array.from(tagSet).sort();
 }
