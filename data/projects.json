@@ -616,6 +616,110 @@
         "url": "",
         "repo": "",
         "privacy": "public"
+    },
+    {
+        "id": "creativeskyline1",
+        "title": "Content Sharing & Monetization Platform (Germany)",
+        "year": 2025,
+        "images": [],
+        "description": "Built a German video and image sharing platform where creators, club owners and users connect through chats and groups, with built-in content monetization.",
+        "category": ["fullstack", "backend"],
+        "platform": ["web"],
+        "tags": ["Laravel", "Livewire", "Vibe Coding"],
+        "url": "",
+        "repo": "",
+        "privacy": "public"
+    },
+    {
+        "id": "creativeskyline-comfytools",
+        "title": "Comfytools",
+        "year": 2025,
+        "images": [],
+        "description": "Germany Invoice and Quotation management system for Comfytools, a German company, built with Laravel and Livewire for efficient business operations.",
+        "category": ["fullstack", "backend"],
+        "platform": ["web"],
+        "tags": ["Laravel", "Livewire", "Stripe", "Vibe Coding"],
+        "url": "",
+        "repo": "",
+        "privacy": "public"
+    },
+    {
+        "id": "creativeskyline-sysprep",
+        "title": "sysprep",
+        "year": 2025,
+        "images": [],
+        "description": "A course like platform for IT professionals to learn about system preparation and deployment, built with Laravel and Livewire for interactive learning experiences.",
+        "category": ["fullstack", "backend"],
+        "platform": ["web"],
+        "tags": ["Laravel", "Livewire", "Vibe Coding"],
+        "url": "",
+        "repo": "",
+        "privacy": "public"
+    },
+    {
+      "id": "eiu-tuguapp",
+      "title": "Tugu TCES",
+      "year": 2025,
+      "images": [],
+      "description": "Insurance APP for Tugu by Pertamina",
+      "category": ["fullstack", "frontend", "backend"],
+      "platform": ["web"],
+      "tags": ["PHP", "Laravel", "Next JS"],
+      "privacy": "private"
+    },
+    {
+      "id": "eiu-tuguapp-mobile",
+      "title": "Tugu TCES Mobile",
+      "year": 2025,
+      "images": [],
+      "description": "Mobile for Tugu TCES",
+      "category": ["frontend"],
+      "platform": ["mobile"],
+      "tags": ["React Native"],
+      "privacy": "private"
+    },
+    {
+      "id": "eiu-cti-prisma",
+      "title": "PRISMA (ERM-like System)",
+      "year": 2026,
+      "images": [],
+      "description": "Enterprise Resource Planning and Project Management system for CTI",
+      "category": ["fullstack", "frontend"],
+      "platform": ["web"],
+      "tags": ["Node JS", "Nest JS", "React Js"],
+      "privacy": "private"
+    },
+    {
+      "id": "eiu-cti-prisma-mobile",
+      "title": "PRISMA Mobile",
+      "year": 2026,
+      "images": [],
+      "description": "Mobile for PRISMA (ERM-like System)",
+      "category": ["frontend"],
+      "platform": ["mobile"],
+      "tags": ["React Native"],
+      "privacy": "private"
+    },
+    {
+      "id": "eiu-prosnaplite",
+      "title": "Prosnap Lite",
+      "year": 2026,
+      "images": [],
+      "description": "Prosnap Lite is a lightweight version of the Prosnap",
+      "category": ["fullstack", "frontend", "backend"],
+      "platform": ["web"],
+      "tags": [".NET", "Blazor", "Tailwind CSS", "RabbitMQ"]
+    },
+    {
+      "id": "eiu-prosnaplite-mobile",
+      "title": "Prosnap Lite Mobile",
+      "year": 2026,
+      "images": [],
+      "description": "Mobile for Prosnap Lite",
+      "category": ["frontend"],
+      "platform": ["mobile"],
+      "tags": ["React Native"],
+      "privacy": "private"
     }
   ]
   
