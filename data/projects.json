@@ -548,8 +548,8 @@
         "title": "Guest Book with QR Scanner for Graduation Ceremony",
         "year": 2024,
         "images": [
-          "/images/portfolios/qr-scanner-graduation/example-dummy-qr-result.png",
-          "/images/portfolios/qr-scanner-graduation/example-dummy-qr-list.png"
+          "/images/portfolios/qr-guestbook-graduation/example-dummy-result.png",
+          "/images/portfolios/qr-guestbook-graduation/example-dummy-qr-list.png"
         ],
         "description": "An innovative digital guest book system incorporating QR code technology for streamlined guest registration at university graduation ceremonies.",
         "category": ["fullstack", "backend"],
